@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET_Core_Mvc_Project", "ASP.NET_Core_Mvc_Project\ASP.NET_Core_Mvc_Project.csproj", "{DA19A694-CFE9-4620-8F7F-02640EF67F41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET_Core_Mvc_Project_WebApi", "ASP.NET_Core_Mvc_Project_WebApi\ASP.NET_Core_Mvc_Project_WebApi.csproj", "{9A4C988D-C8D8-4741-9A64-65F8853045D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA19A694-CFE9-4620-8F7F-02640EF67F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA19A694-CFE9-4620-8F7F-02640EF67F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA19A694-CFE9-4620-8F7F-02640EF67F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA19A694-CFE9-4620-8F7F-02640EF67F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4C988D-C8D8-4741-9A64-65F8853045D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4C988D-C8D8-4741-9A64-65F8853045D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4C988D-C8D8-4741-9A64-65F8853045D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4C988D-C8D8-4741-9A64-65F8853045D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9826E3CC-C417-409D-A1F2-E5EE88B38BD0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<ASP.NET_Core_Mvc_Project.Models.ViewModels.ProductsViewModel>
+
+@{
+    ViewData["Title"] = "CategoryProducts";
+}
+
+<h1>Kategorier</h1>
+
+@foreach (var item in Model) {
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-price">Pris: @item.Price kr</p>
+                <input type="submit" class="btn btn-info" value="Mer info" onclick="location.href='@Url.Action("ProductFromId", "Categories", new {selectedProduct = @item.Id})'" />
+            </div>
+        </div>
+    </div>
+}
